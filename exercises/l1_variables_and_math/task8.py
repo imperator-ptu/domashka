@@ -4,6 +4,7 @@ if __name__ == "__main__":
 
     # Modify variable c using list l to make this script work without errors
     c = None
+    c = l[1:4]
 
     # Do not change the line below
     assert c == [2, 5, 0]
