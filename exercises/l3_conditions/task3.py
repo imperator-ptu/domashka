@@ -15,7 +15,8 @@ class Keyword(Enum):
 def word2token(word: str) -> Keyword:
     if word == "if":
         return Keyword.IF
-
+    elif word == "while":
+        return Keyword.WHILE
 
 # Do not change the below's code
 if __name__ == "__main__":
